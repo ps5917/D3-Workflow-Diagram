@@ -1,0 +1,43 @@
+main.css
+
+.node circle {
+    fill: #fff;
+    stroke: #333;
+    stroke-width: 2px;
+    transition: fill 0.3s ease;
+}
+
+.node:hover circle {
+    fill: #f0f0f0;
+}
+
+.node text {
+    font: 12px system-ui, -apple-system, sans-serif;
+    pointer-events: none;
+}
+
+.link {
+    fill: none;
+    stroke: #666;
+    stroke-width: 2px;
+}
+
+.link-label {
+    font: 10px system-ui, -apple-system, sans-serif;
+    pointer-events: none;
+}
+
+.decision circle {
+    fill: #fff;
+    stroke: #333;
+    stroke-width: 2px;
+}
+
+#diagram {
+    width: 1000px;
+    height: 600px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 20px auto;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
